@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+}
+
+.header-title {
+    padding: 10px 0px;
+}
+
+nav {
+    min-height: 100%;
+    float: left;
+}
+
+.content {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav-tabs .nav-link.active {
+    border-color: #fff;
+}
+
+.alert ul {
+    margin-bottom: 0;
+    padding-left: 10px;
+}
