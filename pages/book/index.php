@@ -33,7 +33,7 @@
                     <td>
                         <a class="btn btn-primary text-white" href="<?= _public("pages/book/update.php?id={$book['id']}") ?>">Update</a>
                         <a class="btn btn-success text-white">View Info</a>
-                        <a class="btn btn-danger  text-white">Delete</a>
+                        <a class="btn btn-danger  text-white" href="<?= _public("pages/book/delete.php?id={$book['id']}") ?>">Delete</a>
                     </td>
                 </tr>
             <?php endwhile; ?>
